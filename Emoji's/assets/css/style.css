@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#title {
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.imagem-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+#nomeContainer {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
